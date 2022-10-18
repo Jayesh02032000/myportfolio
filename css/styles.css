@@ -1,0 +1,234 @@
+#home {
+  background-color: black;
+  min-height: 90vh;
+}
+body{
+  text-align: center;
+}
+#barnav {
+  position: sticky;
+  top: 0;
+}
+
+.avatar {
+  border-radius: 500px;
+  border-style: solid;
+  border-color: white;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+}
+
+
+.intro {
+  padding-top: 260px;
+  margin-left: 160px;
+}
+
+
+#home h1 {
+  color: white;
+}
+
+#home h2 {
+  color: white;
+}
+
+#home h3 {
+  color: lightblue;
+}
+
+#personal-info {
+  background-color: white;
+  min-height: 90vh;
+}
+
+.aboutimage {
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  border-style: solid;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.info {
+  font-weight: 600;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+#skills {
+  background-color: black;
+  min-height: 90vh;
+}
+
+.skill {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skill-bar {
+  padding-top: 50px;
+}
+
+.progress {
+  width: 75%;
+  height: 50%;
+  margin-left: 50px;
+}
+
+#skills h2 {
+  text-align: center;
+  color: blue;
+  padding: 30px;
+}
+
+#skills h3 {
+  margin-left: 50px;
+  color: white;
+}
+
+.skills-image {
+  margin-top: 100px;
+  margin-left: 150px;
+  height: 350px;
+  width: 350px;
+  border-radius: 350px;
+  border-style: solid;
+  border-color: white;
+}
+
+.link-card {
+  scroll-snap-align: start;
+  border-radius: 30px;
+  height: 150px;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 75px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  /* margin-top: 50px; */
+  border-style: solid;
+  border-color: white;
+}
+
+#personal-info h1{
+  text-align: center;
+  margin-top: 20px;
+}
+#work h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 75px;
+  color: orange;
+}
+#work{
+  background-color: white;
+  padding-top: 40px;
+  min-height: 90vh;
+}
+#work h3 {
+  color: black;
+}
+
+.row-items {
+  margin-bottom: 20px;
+}
+
+
+
+.link-card1 {
+  background: linear-gradient(-229deg, #FBD52D, #EF3A7B);
+}
+
+.link-card2 {
+  background: linear-gradient(-229deg, #FF70AF, #5FA8F5);
+}
+
+.link-card3 {
+  background: linear-gradient(-229deg, #0cebeb, #29ffc6);
+}
+
+@media (max-width: 1028px) {
+  .intro {
+    margin-left: 50px;
+    padding-top: 60px;
+  }
+  .avatar{
+    width: 350px;
+    height: 350px;
+    margin-left: 75px;
+  }
+  .aboutimage{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-top: 50px;
+    margin-left: 150px;
+  }
+  .info{
+    text-align: center;
+    padding-top: 50px;
+  }
+  .skills-image{
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-bottom: 40px;
+  }
+  .skill {
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .skill-bar {
+    padding-top: 10px;
+  }
+
+  #skills h2{
+    padding: 10px;
+  }
+  #skills h3{
+    font-size: 85%
+  }
+  .link-card{
+    margin-left: 100px;
+  }
+  #work h1{
+    margin-bottom: 20px;
+  }
+  #work{
+    padding-top: 10px;
+  }
+}
+
+
+footer{
+  padding-top: 50px;
+}
+
+footer h2{
+  text-align: center;
+  color: blue;
+}
+
+/* .link-card:nth-child(4) {
+  background: linear-gradient(-229deg, #88F7F9, #048FFF);
+}
+
+.link-card:nth-child(5) {
+  background: linear-gradient(-229deg, #0093E9, #80D0C7);
+}
+
+.link-card:nth-child(6) {
+  background: linear-gradient(-229deg, #cf91ff, #5782F5);
+}
+
+.link-card:nth-child(7) {
+  background: linear-gradient(-229deg, #642B73, #C6426E);
+} */
