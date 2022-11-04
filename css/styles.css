@@ -154,7 +154,7 @@ background: linear-gradient(-229deg, #0093E9, #FF70AF);
 }
 
 
-@media (max-width:500px) {
+@media only screen and (max-width:500px) {
 
   .avatar{
     width: 300px;
