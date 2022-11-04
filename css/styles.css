@@ -1,13 +1,23 @@
-#home {
-  background-color: black;
-  min-height: 90vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
 }
+
 body{
   text-align: center;
 }
+
+#home {
+  background-color: #42d7b9;
+  min-height: 90vh;
+}
+
 #barnav {
   position: sticky;
   top: 0;
+  width: 101%;
 }
 
 .avatar {
@@ -16,13 +26,13 @@ body{
   border-color: white;
   margin-top: 80px;
   margin-bottom: 100px;
-  margin-left: 150px;
+  margin-left: 40px;
 }
 
 
 .intro {
   padding-top: 260px;
-  margin-left: 160px;
+  margin-left: 100px;
 }
 
 
@@ -35,11 +45,11 @@ body{
 }
 
 #home h3 {
-  color: lightblue;
+  color: black;
 }
 
 #personal-info {
-  background-color: white;
+  background-color: #75f07d;
   min-height: 90vh;
 }
 
@@ -59,13 +69,13 @@ body{
 }
 
 #skills {
-  background-color: black;
+  background-color: #ffb005;
   min-height: 90vh;
 }
 
 .skill {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 100px;
 }
 
 .skill-bar {
@@ -89,30 +99,20 @@ body{
   color: white;
 }
 
-.skills-image {
-  margin-top: 100px;
-  margin-left: 150px;
-  height: 350px;
-  width: 350px;
-  border-radius: 350px;
-  border-style: solid;
-  border-color: white;
-}
 
 .link-card {
   scroll-snap-align: start;
   border-radius: 30px;
-  height: 150px;
-  width: 280px;
+  height: 180px;
+  width: 350px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 75px;
-  margin-right: 20px;
+  margin-left: 150px;
+  margin-right: 0px;
   margin-bottom: 10px;
-  /* margin-top: 50px; */
   border-style: solid;
-  border-color: white;
+  border-color: black;
 }
 
 #personal-info h1{
@@ -126,8 +126,9 @@ body{
   color: orange;
 }
 #work{
-  background-color: white;
+  background-color: #33ccff;
   padding-top: 40px;
+  padding-bottom: 40px;
   min-height: 90vh;
 }
 #work h3 {
@@ -149,86 +150,160 @@ body{
 }
 
 .link-card3 {
-  background: linear-gradient(-229deg, #0cebeb, #29ffc6);
+background: linear-gradient(-229deg, #0093E9, #FF70AF);
 }
 
-@media (max-width: 1028px) {
-  .intro {
-    margin-left: 50px;
-    padding-top: 60px;
-  }
+
+@media (max-width:500px) {
+
   .avatar{
-    width: 350px;
-    height: 350px;
-    margin-left: 75px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 40px;
+    margin-left: 100px;
   }
-  .aboutimage{
+  .intro {
+    padding-top: 60px;
+    margin-left: 40px;
+  }
+  #personal-info {
+    min-height: 90vh;
+  }
+
+  .aboutimage {
     width: 200px;
     height: 200px;
-    border-radius: 200px;
     margin-top: 50px;
     margin-left: 150px;
   }
-  .info{
+
+  .info {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin-left: 20px;
   }
-  .skills-image{
-    height: 250px;
-    width: 250px;
-    border-radius: 250px;
-    margin-top: 40px;
-    margin-left: 120px;
-    margin-bottom: 40px;
+  #skills {
+    min-height: 90vh;
+    padding-bottom: 80px;
   }
   .skill {
-    padding-top: 10px;
-    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .skill-bar {
-    padding-top: 10px;
+    padding-top: 30px;
   }
 
-  #skills h2{
-    padding: 10px;
-  }
-  #skills h3{
-    font-size: 85%
-  }
   .link-card{
-    margin-left: 100px;
-  }
-  #work h1{
-    margin-bottom: 20px;
+    width: 350px;
+    margin-left: 75px;
   }
   #work{
-    padding-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    min-height: 90vh;
   }
 }
 
+@media (min-width:501px) and (max-width: 768px) {
 
-footer{
-  padding-top: 50px;
+  .avatar{
+    width: 350px;
+    height: 350px;
+    margin-bottom: 60px;
+    margin-left: 25%;
+  }
+  .intro {
+    padding-top: 60px;
+    margin-left: 120px;
+  }
+  #personal-info {
+    min-height: 90vh;
+  }
+
+  .aboutimage {
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 35%;
+  }
+  .about{
+    justify-content: center;
+    align-items: center;
+  }
+  .info {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+  #skills {
+    min-height: 90vh;
+    padding-bottom: 80px;
+  }
+  .skill {
+    padding-top: 0px;
+  }
+
+  .skill-bar {
+    padding-top: 20px;
+  }
+  .row-items{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .link-card{
+    width: 320px;
+    margin-left: 210px;
+  }
+  #work{
+    padding-top: 40px;
+    min-height: 90vh;
+  }
 }
 
-footer h2{
-  text-align: center;
-  color: blue;
-}
+@media (min-width: 769px) and (max-width: 1200px) {
 
-/* .link-card:nth-child(4) {
-  background: linear-gradient(-229deg, #88F7F9, #048FFF);
-}
 
-.link-card:nth-child(5) {
-  background: linear-gradient(-229deg, #0093E9, #80D0C7);
-}
+  .avatar{
+    width: 350px;
+    height: 350px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+    margin-left: 80px;
+  }
+  .intro {
+    padding-top: 200px;
+    margin-left: 80px;
+  }
+  #personal-info {
+    min-height: 90vh;
+  }
 
-.link-card:nth-child(6) {
-  background: linear-gradient(-229deg, #cf91ff, #5782F5);
-}
+  .aboutimage {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 20%;
+  }
+  .info {
+    padding-top: 30px;
+    padding-bottom: 100px;
+  }
+  #skills {
+    min-height: 90vh;
+    padding-bottom: 40px;
+  }
 
-.link-card:nth-child(7) {
-  background: linear-gradient(-229deg, #642B73, #C6426E);
-} */
+  #work{
+    padding-top: 40px;
+    justify-content: center;
+    align-items:center;
+    min-height: 90vh;
+  }
+  .link-card{
+    margin-left: 20%;
+  }
+}
